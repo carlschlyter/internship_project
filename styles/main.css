@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-style: italic;
+}
+
+#main-div {
+    margin: 10px;
+    padding: 5;
+}
+
+#logga {
+    float:right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.match-display {
+    background-color: rgba(187, 180, 180, 0.835);
+    color: white;
+    margin: 10px 0 10px 10px;
+    padding: 10px 0 10px 10px;
+    font-size: 20px;
+    border: 2px solid lightgrey;
+    float: left;
+    width: 75%;
+}
+
+#match-display-betting {
+    background-color: rgba(187, 180, 180, 0.835);
+    color: white;
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 10px;
+    font-size: 20px;
+    border: 2px solid lightgrey;
+    float: left;
+    width: 75%;
+}
+
+.heading-part {
+    margin: 10px;
+    padding: 10px 10px 5px 0;
+    float: left;
+    width: 100%;
+}
+
+.reg-push {
+    margin: 10px;
+    padding: 10px;
+    float:left;
+    font-style: italic;
+    width: 25%;  
+}
+
+#result, #login_result {
+    margin: 15px;
+    padding: 15px;
+    float:left;
+}
+
+#bet-form {
+    margin: 15px;
+    padding: 15px;
+    float:left;
+}
+
+.betForm {
+    font-size: 15px;
+}
+
+#betFormWinner {
+    font-size: 15;
+}
+
+#betDiv {
+    margin-bottom: 10px;
+}
+
+#betFormGreet {
+    float: left;
+    width: 50%;
+}
+
+#betButton {
+    float: left;
+}
+
+#betFormCheckbox {
+    font-size: 15;
+}
+
+#matchListItem {
+    width: 50px;
+    height: 10px;
+    border: 1px, solid, white;
+}
+
+#logoutbtn {
+    margin: 5px;
+}
+
+#resultsTable, .matchesTable, #toplist {
+    color: white;
+}
+
+#totalUserPoints {
+    padding: 10px 0 0 0;
+    margin: 10px 0 0 0;
+    position: absolute;
+}
+
